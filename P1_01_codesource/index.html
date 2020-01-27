@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <!-- HEAD -->
+    <head>
+        <title>WebAgency - Création de sites internet</title>
+
+        <!-- META -->
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="description" content="WebAgency, spécialiste dans la création de sites internet, design graphique et référencement naturel.">
+        <!-- META -->
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="style.css"/>
+        <!-- CSS -->
+
+        <!-- FONT -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/94e02723f8.js"></script>
+        <!-- FONT -->
+
+    </head>
+    <!-- HEAD -->
+
+    
+    <!-- BODY -->
+    <body>
+
+        <!-- HEADER -->
+        <header>
+            <div id="header-top">
+                <div id="div-logo">
+                    <img src="img/logo.png" alt="logo-webagency"/>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div id="accueil"></div>
+            
+            <section id="slider">
+                <div id="slider-elements">
+                    <input id="previous" type="radio" name="slider">
+                    <input id="next" type="radio" name="slider">
+                    <div id="div-img">
+                        <img class="slider-img" id="img1" src="img/bg1.jpg" alt="petite fille qui sourit">
+                        <img class="slider-img" id="img2" src="img/bg2.jpg" alt="petit garçcon qui utilise megaphone">
+                    </div>
+
+                    
+                    
+                    <div id="previous-button"><p>&lt;</p></div>
+                    <div id="slider-txt">
+                        <h1><span id="blue-text">WEBAGENCY</span> : L'AGENCE DE TOUS VOS PROJETS !</h1>
+                        <p>Vous avez un projet web? La WebAgency vous aide a le réaliser !</p>
+                        <button class="button">Plus d'infos</button>
+                    </div>
+                    <div id="next-button"><p>&gt;</p></div>
+                </div>
+            </section>
+        </header>
+        <!-- HEADER -->
+
+        <hr>
+
+        <!-- SERVICES -->
+        <section id="services">
+            <div id="services-top">
+                <h2>NOS SERVICES</h2>
+                <div class="div-point">
+                    <figure class="blue-point point"></figure>
+                    <hr class="hr-point">
+                </div>
+                <p>Pour votre site internet, la WebAgency place l'utilisateur final au centre du développement en créant un design épuré et élégant ainsi qu'une navigation intuitive. </p>
+            </div>
+
+            <div id="services-content">
+                <div id="services-content-left"><img id="services-img" src="img/main-feature.png" alt="iMac"></div>
+                <div id="services-content-right">
+
+                    <div class="content-icones">
+                        <div class="div-icones"><i class="fas fa-chart-line"></i><figure class="blue-point"></figure></div>
+                        <div class="div-txt"><h3>UX design</h3><p>Une interface intuitive quelque soit le support de visite qui garantit une navigation fluide et légère.</p></div>
+                    </div>
+
+                    <div class="content-icones">
+                        <div class="div-icones"><i class="fas fa-cubes"></i><figure class="blue-point"></figure></div>
+                        <div class="div-txt"><h3>UI design</h3><p>Un visuel moderne et efficace allant à l'essentiel et qui capte l'attention du visiteur.</p></div>
+                    </div>
+
+                    <div class="content-icones">
+                        <div class="div-icones"><i class="fas fa-chart-pie"></i><figure class="blue-point"></figure></div>
+                        <div class="div-txt"><h3>SEO</h3><p>Nous optimisons le référencement naturel de votre site afin qu'il apparaisse en première page des moteurs de recherche.</p></div>        
+                    </div>
+                    
+                </div>                
+
+            </div>
+        </section>
+        <!-- SERVICES -->
+
+        <hr id="hr-services">
+
+        <!-- PORTFOLIO -->
+        <section id="portfolio">
+            <div id="portfolio-top">
+                <h2>NOS PROJETS</h2>
+                <div class="div-point">
+                        <figure class="blue-point"></figure>
+                        <hr class="hr-point">
+                    </div>
+                <p>Trouvez l'inspiration en parcourant les projets que nous avons réalisé ainsi que nos templates.</p>
+            </div>
+
+            <input id="r1" class="filter-input" type="radio" name="filter" checked>                
+            <input id="r2" class="filter-input" type="radio" name="filter">               
+            <input id="r3" class="filter-input" type="radio" name="filter">
+            <input id="r4" class="filter-input" type="radio" name="filter">
+
+            <div id="filter-label">
+                <label id="l1" class="label-filter" for="r1">All works <span id="t1" class="triangle"></span></label>
+                <label id="l2" class="label-filter" for="r2">Creative <span id="t2" class="triangle"></span></label>
+                <label id="l3" class="label-filter" for="r3">Corporate <span id="t3" class="triangle"></span></label>
+                <label id="l4" class="label-filter" for="r4">Portfolio <span id="t4" class="triangle"></span></label>
+            </div>    
+
+            <div id="projets">
+                <figure class="bloc-projet creative creative">
+                    <img class="projets-img" src="img/portfolio/01.jpg" alt="lunettes pictogramme">
+                    <figcaption class="hidden">
+                        <i class="far fa-eye"></i>
+                        <h4>Opti soins</h4>
+                        <p>Site web</p>
+                    </figcaption>
+                </figure>
+                <figure class="bloc-projet corporate portfolio">
+                    <img class="projets-img" src="img/portfolio/02.jpg" alt="dessin de lapin">
+                    <figcaption class="hidden">
+                        <i class="far fa-eye"></i>
+                        <h4>Art N Co</h4>
+                        <p>Design graphique</p>
+                    </figcaption>
+                </figure>
+                <figure class="bloc-projet corporate creative">
+                    <img class="projets-img" src="img/portfolio/03.jpg" alt="design logo pompadour">
+                    <figcaption class="hidden">
+                        <i class="far fa-eye"></i>
+                        <h4>Pompadour</h4>
+                        <p>Création de logo</p>
+                    </figcaption>
+                </figure>
+                <figure class="bloc-projet corporate creative">
+                    <img class="projets-img" src="img/portfolio/04.jpg" alt="modèle de template de site web">
+                    <figcaption class="hidden">
+                        <i class="far fa-eye"></i>
+                        <h4>Mock up création</h4>
+                        <p>Design graphique</p>
+                    </figcaption>
+                </figure>
+                <figure class="bloc-projet portfolio creative">
+                    <img class="projets-img" src="img/portfolio/05.jpg" alt="sacs en carton a personnaliser">
+                    <figcaption class="hidden">
+                        <i class="far fa-eye"></i>
+                        <h4>Objectif lune</h4>
+                        <p>Design graphique</p>
+                    </figcaption>
+                </figure>
+                <figure class="bloc-projet corporate ceative">
+                    <img class="projets-img" src="img/portfolio/06.jpg" alt="dessin de ville">
+                    <figcaption class="hidden">
+                        <i class="far fa-eye"></i>
+                        <h4>Ace attorney</h4>
+                        <p>Site web</p>
+                    </figcaption>
+                </figure>
+                <figure class="bloc-projet portfolio">
+                    <img class="projets-img" src="img/portfolio/07.jpg" alt="logo de fusée">
+                    <figcaption class="hidden">
+                        <i class="far fa-eye"></i>
+                        <h4>Mc Fly voyage </h4>
+                        <p>Logo personnalisé</p>
+                    </figcaption>
+                </figure>
+                <figure class="bloc-projet ccreative">
+                    <img class="projets-img" src="img/portfolio/08.jpg" alt="gadgets personnalisés">
+                    <figcaption class="hidden">
+                        <i class="far fa-eye"></i>
+                        <h4>Go-go Gadgets</h4>
+                        <p>Des gadgets à votre nom</p>
+                    </figcaption>
+                </figure>
+                
+            </div>
+        </section>
+        <!-- PORTFOLIO -->
+
+        <hr id="hr-portfolio">
+
+        <!-- CONTACT -->
+        <footer id="contact">
+            
+            <div id="map-div">
+            <div id="blue-filter"></div>
+            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2547.7166301431125!2d2.347636915202215!3d48.87305530762882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25+Rue+d'Hauteville%2C+75010+Paris!5e0!3m2!1sfr!2sfr!4v1544453048267"></iframe>
+            </div>
+
+            <div id="formulaire">
+                <h3>Contact Info</h3>
+                <p>WebAgency SAS</p>
+                <p>25 Rue d'Hauteville 75010 Paris</p>
+                <p>Tel: 01 02 03 04 05</p>
+
+                <form action="get">
+                    <input class="form-btn" type="text" placeholder="Name" required>                     
+                    <input class="form-btn" type="text" placeholder="Email" required>                    
+                    <input class="form-btn" type="text" placeholder="Subject">                    
+                    <textarea rows="5" class="form-btn" name="message" placeholder="Message"></textarea> 
+                    <button class="button">Envoyer</button>
+                </form>         
+            </div>
+        </footer> 
+
+        <!-- CONTACT -->
+
+    </body>
+    <!-- BODY -->
+
+</html>
